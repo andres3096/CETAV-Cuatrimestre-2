@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: arial, sans-serif;
+}
+
+p{
+	margin-bottom: 10px;
+	font-size: 12px;
+	margin-left: 5px;
+	margin-top: 5px; 
+	line-height: 20px;
+	color: #5d5d5d;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.refer {
+	color: blue;
+	margin-left: 5px;
+	text-decoration: underline;
+}
+
+h2{
+	font-size: 18px;
+	color: #6Dc4FE;
+}
+
+
+h3{
+	font-size: 15px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+
+/* Container*/
+.wrapper{
+	width: 970px;
+	margin: 0 auto;
+	position: relative;
+}
+
+/*Helper clases*/
+.clearFix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearFix { display: block; }
+
+/*--------------------
+      Header
+--------------------*/
+.header{
+	margin-top: 21px;
+}
+.header img{
+	float: left;
+}
+
+/*Menu*/
+.menu{
+	position: absolute;
+	top: 75px;
+	left: 400px;
+	list-style: none; /* Quita los biñedos*/
+}
+.menu li{
+	display: inline; /* Acomoda la lista*/
+	margin-left: 45px; /* Separa la lista*/
+}
+.menu li:first-child{
+   margin-left: 0;
+}
+.menu a{
+	font-size: 12px; /* Hace la letra pequeña o grande*/
+	font-weight: bold; /* Pone las letras en negrita*/
+}
+.menu a:hover{
+	color:#d4ac0d;
+}
+
+.mainContent{
+	clear: both; /* Acomoda el mainContent debajo del Creative Studio*/	
+}
+
+.operative {
+	width: 310px;
+    height: 145px;
+    background-color: white;
+    position: absolute;
+    top: 273px;
+    left: 604px;
+}
+
+/*------ footer -----*/
+.box {
+	width:320px;
+	float: left;
+	margin-left: 2px;
+	margin-top: 10px;
+}

@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: $font;
+}
+
+p{
+	margin-bottom: 10px;
+	font-size: 12px;
+	margin-left: 5px;
+	margin-top: 5px; 
+	line-height: 20px;
+	color: $color-black;
+}
+
+a{
+	text-decoration: none;
+	color: $color-white;
+}
+
+
+
+h2{
+	font-size: 18px;
+	color: $color-ligthBlue;
+}
+
+
+h3{
+	font-size: 15px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+
